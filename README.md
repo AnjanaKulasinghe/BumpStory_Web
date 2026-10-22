@@ -25,8 +25,7 @@ of `main` in the repository settings.
 ## Content notes
 
 - The example portrait photos are the BumpStory photo-guidance samples.
-- The App Store and Google Play availability labels say “Coming soon” until
-  the public listing URLs are available.
-- Update those labels and add store links in `index.html` after launch.
+- The Android pill links to the Google Play listing. iPhone is marked pending
+  until its App Store listing is available.
 - Colors, responsive layout, and phone mockups are all in `styles.css` and
   plain HTML; there are no framework, font-hosting, or analytics dependencies.

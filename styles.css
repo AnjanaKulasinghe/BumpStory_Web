@@ -255,7 +255,8 @@ h1 em, h2 em { color: var(--rose); font-weight: 500; }
 .coming-content h2 em { color: #e8b6a8; }
 .coming-content > p:not(.eyebrow) { max-width: 455px; margin: 0 auto; color: #e4e1d9; font-size: 13px; }
 .platform-pills { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
-.platform-pills > span { min-height: 39px; display: inline-flex; align-items: center; gap: 8px; padding: 0 12px; border: 1px solid rgba(255, 255, 255, .24); border-radius: 999px; background: rgba(255, 255, 255, .08); font-size: 10px; font-weight: 700; }
+.platform-pills > span, .platform-pills > a { min-height: 39px; display: inline-flex; align-items: center; gap: 8px; padding: 0 12px; border: 1px solid rgba(255, 255, 255, .24); border-radius: 999px; background: rgba(255, 255, 255, .08); color: inherit; font-size: 10px; font-weight: 700; text-decoration: none; }
+.platform-pills > a:hover, .platform-pills > a:focus-visible { background: rgba(255, 255, 255, .16); }
 .platform-pills b { color: #f0c1b5; font-size: 12px; }
 .platform-pills i { color: #d8cfc2; font-size: 7px; font-style: normal; font-weight: 800; letter-spacing: .1em; }
 .coming-orbit { position: absolute; width: 420px; height: 420px; border: 1px solid rgba(255, 255, 255, .1); border-radius: 50%; }
@@ -413,7 +414,7 @@ h1 em, h2 em { color: var(--rose); font-weight: 500; }
   .past-week { align-items: flex-start; flex-direction: column; justify-content: center; gap: 1px; }
   .tree-end { margin-left: 44px; }
   .platform-pills { gap: 7px; }
-  .platform-pills > span { padding-inline: 9px; }
+  .platform-pills > span, .platform-pills > a { padding-inline: 9px; }
   .footer-bottom { flex-direction: column; gap: 5px; }
 }
 
